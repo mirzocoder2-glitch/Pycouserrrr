@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="tg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ПлатформаТЈ — Платформаи таълимии онлайн</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="navbar-root"></div>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-grid">
+    <div class="hero-content fade-up">
+      <div class="hero-badge">🚀 Платформаи таълимии муосир</div>
+      <h1 class="hero-title">
+        Донишро бо<br>
+        <span>ПлатформаТЈ</span><br>
+        амиқ карӣ!
+      </h1>
+      <p class="hero-desc">
+        Омӯзиши барномасозӣ ба забони тоҷикӣ. Видеодарсҳо, тестҳо, масъалаҳои амалӣ ва интерпретатори онлайн — ҳама дар як ҷо.
+      </p>
+      <div class="hero-btns">
+        <a href="login.html" class="btn btn-primary btn-lg">▶ Дохил шудан</a>
+        <a href="#courses" class="btn btn-outline btn-lg">📚 Курсҳо</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-stat fade-up" style="animation-delay:0.1s">
+        <div class="hero-stat-num" id="stat-courses">0</div>
+        <div class="hero-stat-label">📚 Курс</div>
+      </div>
+      <div class="hero-stat fade-up" style="animation-delay:0.2s">
+        <div class="hero-stat-num" id="stat-students">0</div>
+        <div class="hero-stat-label">👨‍🎓 Хонанда</div>
+      </div>
+      <div class="hero-stat fade-up" style="animation-delay:0.3s">
+        <div class="hero-stat-num" id="stat-tests">0</div>
+        <div class="hero-stat-label">📝 Тест</div>
+      </div>
+      <div class="hero-stat fade-up" style="animation-delay:0.4s">
+        <div class="hero-stat-num" id="stat-tasks">0</div>
+        <div class="hero-stat-label">💡 Масъала</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section class="section" id="courses" style="background:var(--bg2)">
+  <div class="section-inner">
+    <h2 class="section-title">📚 Курсҳои мо</h2>
+    <p class="section-sub">Курсҳои барномасозӣ ба забони тоҷикӣ</p>
+    <div class="courses-grid" id="courses-grid">
+      <div class="course-card" style="pointer-events:none">
+        <div class="course-thumb" style="background:var(--bg3)">
+          <div style="color:var(--text-muted);font-size:0.9rem">Курсҳо бор мешаванд...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section">
+  <div class="section-inner">
+    <h2 class="section-title">✨ Чаро ПлатформаТЈ?</h2>
+    <p class="section-sub">Мо беҳтаринем, чунки...</p>
+    <div class="features-grid">
+      <div class="feature-card fade-up">
+        <div class="feature-icon">🎬</div>
+        <div class="feature-title">Видеодарсҳо</div>
+        <div class="feature-desc">Дарсҳои видеоии бо сифати баланд бо шарҳи пурра ба забони тоҷикӣ</div>
+      </div>
+      <div class="feature-card fade-up" style="animation-delay:0.1s">
+        <div class="feature-icon">📝</div>
+        <div class="feature-title">Тестҳои онлайн</div>
+        <div class="feature-desc">Дониши худро бо тестҳои интерактивӣ санҷед ва натиҷа гиред</div>
+      </div>
+      <div class="feature-card fade-up" style="animation-delay:0.2s">
+        <div class="feature-icon">💻</div>
+        <div class="feature-title">Интерпретатор</div>
+        <div class="feature-desc">HTML ва Python-ро мустақиман дар браузер бе насби барнома иҷро кунед</div>
+      </div>
+      <div class="feature-card fade-up" style="animation-delay:0.3s">
+        <div class="feature-icon">🏆</div>
+        <div class="feature-title">Рейтинг</div>
+        <div class="feature-desc">Ба рейтинг дохил шавед, бо дигар хонандагон рақобат кунед ва ҷоизаҳо гиред</div>
+      </div>
+      <div class="feature-card fade-up" style="animation-delay:0.4s">
+        <div class="feature-icon">💡</div>
+        <div class="feature-title">Масъалаҳои амалӣ</div>
+        <div class="feature-desc">Садҳо масъалаи барномасозӣ барои тафаккури мантиқии шумо</div>
+      </div>
+      <div class="feature-card fade-up" style="animation-delay:0.5s">
+        <div class="feature-icon">📊</div>
+        <div class="feature-title">Дашборди шахсӣ</div>
+        <div class="feature-desc">Пешрафти худро пайгирӣ кунед ва натиҷаҳоятонро бубинед</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="section" style="background:var(--bg2)">
+  <div class="section-inner">
+    <h2 class="section-title">🛤️ Чӣ гуна кор мекунад?</h2>
+    <p class="section-sub">3 қадам барои оғоз</p>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem;margin-top:2rem">
+      <div style="text-align:center;padding:2rem">
+        <div style="width:70px;height:70px;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;margin:0 auto 1rem">1</div>
+        <h3 style="margin-bottom:0.7rem">Дохил шавед</h3>
+        <p style="color:var(--text-muted);font-size:0.9rem">Ба платформа ворид шавед ё аз администратор логин ва парол гиред</p>
+      </div>
+      <div style="text-align:center;padding:2rem">
+        <div style="width:70px;height:70px;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;margin:0 auto 1rem">2</div>
+        <h3 style="margin-bottom:0.7rem">Курс интихоб кунед</h3>
+        <p style="color:var(--text-muted);font-size:0.9rem">Видеодарсҳоро тамошо кунед, мавзӯъҳоро омӯзед ва тестҳоро ҳал кунед</p>
+      </div>
+      <div style="text-align:center;padding:2rem">
+        <div style="width:70px;height:70px;background:linear-gradient(135deg,var(--primary),var(--primary-dark));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.8rem;margin:0 auto 1rem">3</div>
+        <h3 style="margin-bottom:0.7rem">Натиҷа гиред</h3>
+        <p style="color:var(--text-muted);font-size:0.9rem">Ба рейтинг дохил шавед, нуқтаҳо ҷамъ кунед ва санадномаи хатм гиред</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="section">
+  <div class="section-inner" style="text-align:center">
+    <h2 style="font-size:2.2rem;font-weight:900;margin-bottom:1rem">Омода аед?<br><span style="background:linear-gradient(90deg,var(--primary),var(--accent));-webkit-background-clip:text;-webkit-text-fill-color:transparent">Имрӯз оғоз кунед!</span></h2>
+    <p style="color:var(--text-muted);margin-bottom:2rem;font-size:1.05rem">Ба ҳазорон хонандагоне, ки аллакай омӯзишро оғоз кардаанд, ҳамроҳ шавед</p>
+    <a href="login.html" class="btn btn-primary btn-lg">▶ Дохил шудан ва оғоз кардан</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2024 ПлатформаТЈ — Платформаи таълимии онлайн ба забони тоҷикӣ</p>
+  <p style="margin-top:0.5rem;font-size:0.8rem">Барои дохил шудан бо администратор тамос гиред</p>
+</footer>
+
+<script src="/js/api.js"></script>
+<script>
+  // Navbar
+  document.getElementById('navbar-root').innerHTML = Platform.renderNavbar('home');
+
+  // Stats
+  const courses = Platform.getCourses();
+  const users = Platform.getUsers().filter(u => u.role === 'student');
+  const tests = Platform.getTests();
+  const tasks = Platform.getTasks();
+
+  const animNum = (el, target) => {
+    let n = 0; const step = Math.ceil(target/30);
+    const iv = setInterval(() => { n = Math.min(n+step, target); el.textContent = n; if(n>=target) clearInterval(iv); }, 50);
+  };
+
+  animNum(document.getElementById('stat-courses'), courses.length);
+  animNum(document.getElementById('stat-students'), users.length);
+  animNum(document.getElementById('stat-tests'), tests.length);
+  animNum(document.getElementById('stat-tasks'), tasks.length);
+
+  // Render courses
+  const grid = document.getElementById('courses-grid');
+  if (courses.length === 0) {
+    grid.innerHTML = '<div style="grid-column:1/-1;text-align:center;padding:3rem;color:var(--text-muted)">Ҳоло курс илова нашудааст. Администратор зуд илова мекунад!</div>';
+  } else {
+    grid.innerHTML = courses.map(c => `
+      <a href="/login.html" class="course-card">
+        <div class="course-thumb">
+          <span>${c.icon || '📚'}</span>
+          <span class="course-badge">${c.level}</span>
+        </div>
+        <div class="course-body">
+          <div class="course-title">${Platform.escapeHtml(c.title)}</div>
+          <div class="course-desc">${Platform.escapeHtml(c.description)}</div>
+          <div class="course-meta">
+            <span>📹 ${c.lessons} дарс</span>
+            <span>⏱ ${c.duration}</span>
+          </div>
+        </div>
+      </a>
+    `).join('');
+  }
+</script>
+</body>
+</html>
